@@ -47,8 +47,7 @@ header{
 
   .nav-left{
     width:100%;
-    background:  #2b272f url(../images/bg-pattern-mobile-nav.svg) no-repeat;
-    background-position-y: 37rem;
+    background:  #2b272f url(../images/bg-pattern-mobile-nav.svg) no-repeat left bottom;
   }
 
   .menu{
@@ -61,7 +60,7 @@ header{
 
     &.change{
       display: block;
-      height:105vh;
+      height:104.7vh;
     }
 
     li{
