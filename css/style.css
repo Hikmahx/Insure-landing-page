@@ -35,10 +35,13 @@ header .header-top {
 
 header .hamburger-menu {
   margin-bottom: 0.3rem;
+  cursor: pointer;
 }
 
 header .hamburger-menu .menu-icon {
   display: block;
+  -webkit-animation: rotates 0.5s forwards;
+          animation: rotates 0.5s forwards;
 }
 
 header .hamburger-menu .menu-icon.change {
@@ -50,12 +53,47 @@ header .hamburger-menu .close {
 }
 
 header .hamburger-menu .close.change {
+  -webkit-animation: rotates 0.5s forwards;
+          animation: rotates 0.5s forwards;
   display: block;
+}
+
+@-webkit-keyframes rotates {
+  0% {
+    opacity: 0.5;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+}
+
+@keyframes rotates {
+  0% {
+    opacity: 0.5;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
 }
 
 header .nav-left {
   width: 100%;
   background: #2b272f url(../images/bg-pattern-mobile-nav.svg) no-repeat left bottom;
+  opacity: 0;
+  -webkit-transition: opacity 0.5s ease-in;
+  transition: opacity 0.5s ease-in;
+}
+
+header .nav-left.change {
+  opacity: 1;
 }
 
 header .menu {
@@ -77,6 +115,30 @@ header .menu {
 header .menu.change {
   display: block;
   height: 104.7vh;
+  -webkit-animation: fadeIn 0.5s ease forwards;
+          animation: fadeIn 0.5s ease forwards;
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    display: none;
+    opacity: 0;
+  }
+  100% {
+    display: block;
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    display: none;
+    opacity: 0;
+  }
+  100% {
+    display: block;
+    opacity: 1;
+  }
 }
 
 header .menu li {
