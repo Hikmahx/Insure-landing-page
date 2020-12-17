@@ -166,4 +166,75 @@ header .menu .menu-item {
 header .menu .menu-item.change {
   display: block;
 }
+
+.banner {
+  font-family: 'Karla', sans-serif;
+  font-size: 1.6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.banner .banner-img {
+  width: 100%;
+  height: 45.18rem;
+}
+
+.banner .banner-img img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+
+.banner .banner-text {
+  padding: 5rem 2rem;
+  background: url(../images/bg-pattern-intro-left-mobile.svg) no-repeat, url(../images/bg-pattern-intro-right-mobile.svg) no-repeat, #2d2640;
+  background-position: top left, bottom -17.6rem right;
+  height: 89vh;
+  width: 100%;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.banner .banner-text h1 {
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  width: 89%;
+}
+
+.banner .banner-text p {
+  line-height: 3rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  width: 88%;
+}
+
+.banner .banner-text button {
+  border: 0.1rem solid #fff;
+  width: 42%;
+  color: #fff;
+  padding: 1rem;
+  background: transparent;
+  font-family: 'Karla', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
 /*# sourceMappingURL=style.css.map */
