@@ -18,6 +18,12 @@ html{
   font-size: 62.5%;
   font-family:'DM Serif Display','Karla', sans-serif;
 }
-
+@mixin flexCenter($direction) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: $direction;
+}
 @import './header';
 @import './banner';
+@import './about';
