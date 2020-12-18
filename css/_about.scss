@@ -12,27 +12,28 @@
     justify-content: center;
 
     .underline{
-      width: 12rem;
+      width: 15rem;
       height: 0.1rem;
       background-color: $dark-grayish-violet;
     }
 
     h1{
       font-family: 'DM Serif Display', sans-serif;
-      font-size: 4.4rem;
-      margin: 5rem 0 2rem;
+      font-size: 4.6rem;
+      margin: 3.4rem 0 2rem;
+      font-weight: 400;
     }
   }
 
   .services{
     @include flexCenter(column);
-    margin-bottom: 6rem;
+    margin-bottom: 12.5rem;
 
     .service{
       @include flexCenter(column);
       width:90%;
       height: 25rem;
-      margin: 3.5rem;
+      margin: 3.5rem 0 2rem;
 
       .icon{
         margin: 3.5rem;
@@ -40,15 +41,18 @@
 
       h3{
         font-family: 'DM Serif Display', sans-serif;
-        font-size: 2.4rem;
+        font-size: 2.7rem;
         color: $dark-violet;
         margin-bottom: 1.5rem;
+        font-weight: 400;
       }
 
       p{
         font-size: 1.6rem;
         color:$dark-grayish-violet;
-        line-height: 3rem;
+        line-height: 2.7rem;
+        font-family: 'Karla', sans-serif;
+        width: 107%
       }
     }
   }
@@ -63,19 +67,23 @@
     font-family: 'DM Display Serif', sans-serif;
     
     h1{
-      font-size: 4rem;
-      margin-bottom: 3rem;
+      font-size: 3.9rem;
+      margin-bottom: 4rem;
+      font-family: 'DM Serif Display', sans-serif;
+      font-weight: 400;
+      line-height: 1;
     }
 
     button{
       border: 0.1rem solid #fff;
-      width: 50%;
+      width: 48%;
       color: #fff;
-      padding: 1.2rem ;
+      padding: 1.1rem ;
       background:transparent;
       font-family: 'Karla', sans-serif;
       text-transform: uppercase;
-      letter-spacing: 0.1rem;
+      letter-spacing: 0.15rem;
+      font-size: 1.4rem;
     }
   }
 }

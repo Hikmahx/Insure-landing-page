@@ -266,15 +266,16 @@ header .menu .menu-item.change {
 }
 
 .about-us .section-header .underline {
-  width: 12rem;
+  width: 15rem;
   height: 0.1rem;
   background-color: #837d87;
 }
 
 .about-us .section-header h1 {
   font-family: 'DM Serif Display', sans-serif;
-  font-size: 4.4rem;
-  margin: 5rem 0 2rem;
+  font-size: 4.6rem;
+  margin: 3.4rem 0 2rem;
+  font-weight: 400;
 }
 
 .about-us .services {
@@ -291,7 +292,7 @@ header .menu .menu-item.change {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-bottom: 6rem;
+  margin-bottom: 12.5rem;
 }
 
 .about-us .services .service {
@@ -310,7 +311,7 @@ header .menu .menu-item.change {
           flex-direction: column;
   width: 90%;
   height: 25rem;
-  margin: 3.5rem;
+  margin: 3.5rem 0 2rem;
 }
 
 .about-us .services .service .icon {
@@ -319,15 +320,18 @@ header .menu .menu-item.change {
 
 .about-us .services .service h3 {
   font-family: 'DM Serif Display', sans-serif;
-  font-size: 2.4rem;
+  font-size: 2.7rem;
   color: #2d2640;
   margin-bottom: 1.5rem;
+  font-weight: 400;
 }
 
 .about-us .services .service p {
   font-size: 1.6rem;
   color: #837d87;
-  line-height: 3rem;
+  line-height: 2.7rem;
+  font-family: 'Karla', sans-serif;
+  width: 107%;
 }
 
 .about-us .inner-box {
@@ -352,24 +356,28 @@ header .menu .menu-item.change {
 }
 
 .about-us .inner-box h1 {
-  font-size: 4rem;
-  margin-bottom: 3rem;
+  font-size: 3.9rem;
+  margin-bottom: 4rem;
+  font-family: 'DM Serif Display', sans-serif;
+  font-weight: 400;
+  line-height: 1;
 }
 
 .about-us .inner-box button {
   border: 0.1rem solid #fff;
-  width: 50%;
+  width: 48%;
   color: #fff;
-  padding: 1.2rem;
+  padding: 1.1rem;
   background: transparent;
   font-family: 'Karla', sans-serif;
   text-transform: uppercase;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.15rem;
+  font-size: 1.4rem;
 }
 
 footer {
   font-family: 'Karla', sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -421,13 +429,14 @@ footer .footer-bottom {
 }
 
 footer .footer-bottom .content {
-  margin: 2rem 0 3.2rem;
+  margin: 2rem 0 3.5rem;
 }
 
 footer .footer-bottom .content h3 {
   color: #837d87;
-  font-weight: 400;
-  margin: 2rem 0 3rem;
+  font-weight: 700;
+  margin: 2rem 0 2.8rem;
+  font-size: 1.3rem;
 }
 
 footer .footer-bottom .content ul li {
