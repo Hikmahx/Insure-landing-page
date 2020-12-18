@@ -366,4 +366,73 @@ header .menu .menu-item.change {
   text-transform: uppercase;
   letter-spacing: 0.1rem;
 }
+
+footer {
+  font-family: 'Karla', sans-serif;
+  font-size: 1.2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #fafafa url(../images/bg-pattern-footer-mobile.svg) no-repeat;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  flex-direction: column;
+  padding: 6rem 2rem;
+}
+
+footer .footer-top {
+  width: 100%;
+  border-bottom: thin solid #d9d9d9;
+}
+
+footer .footer-top .logo {
+  margin: 1.3rem 0;
+}
+
+footer .footer-top .socials {
+  margin: -0.1rem 0 3rem;
+}
+
+footer .footer-top .socials a img {
+  margin: 0.6rem;
+}
+
+footer .footer-top hr {
+  width: 100%;
+  height: 0.1rem;
+  background-color: #837d87;
+}
+
+footer .footer-bottom {
+  margin-top: 2rem;
+}
+
+footer .footer-bottom .content {
+  margin: 2rem 0 3.2rem;
+}
+
+footer .footer-bottom .content h3 {
+  color: #837d87;
+  font-weight: 400;
+  margin: 2rem 0 3rem;
+}
+
+footer .footer-bottom .content ul li {
+  color: #2d2640;
+  line-height: 3rem;
+  font-weight: 700;
+}
 /*# sourceMappingURL=style.css.map */
