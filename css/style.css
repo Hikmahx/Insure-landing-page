@@ -222,6 +222,7 @@ header .menu .menu-item.change {
   margin-bottom: 1rem;
   width: 89%;
   line-height: 4.8rem;
+  max-width: 35rem;
 }
 
 .banner .banner-text p {
@@ -230,11 +231,13 @@ header .menu .menu-item.change {
   text-align: center;
   margin-bottom: 3rem;
   width: 86%;
+  max-width: 55rem;
 }
 
 .banner .banner-text button {
   border: 0.1rem solid #fff;
   width: 40%;
+  max-width: 15rem;
   color: #fff;
   padding: 1.2rem;
   background: transparent;
@@ -332,6 +335,7 @@ header .menu .menu-item.change {
   line-height: 2.7rem;
   font-family: 'Karla', sans-serif;
   width: 107%;
+  max-width: 35rem;
 }
 
 .about-us .inner-box {
@@ -361,11 +365,13 @@ header .menu .menu-item.change {
   font-family: 'DM Serif Display', sans-serif;
   font-weight: 400;
   line-height: 1;
+  max-width: 34rem;
 }
 
 .about-us .inner-box button {
   border: 0.1rem solid #fff;
   width: 48%;
+  max-width: 16rem;
   color: #fff;
   padding: 1.1rem;
   background: transparent;
