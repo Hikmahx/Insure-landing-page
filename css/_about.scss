@@ -91,3 +91,24 @@
   }
 }
 
+
+@media (min-width: 1023px) {
+  .about-us{
+    background: #fff;
+    position: relative;
+
+    &::before{
+      content: url(../images/bg-pattern-intro-left-desktop.svg);
+      position: absolute;
+      left: 0rem;
+      top: -15rem;
+    }
+    
+    .inner-box{
+      text-align: initial;
+      padding: 11rem;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+}
