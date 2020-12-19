@@ -110,3 +110,48 @@ header{
     }
   }
 }
+
+@media(min-width: 1023px) {
+  header{
+    .hamburger-menu{
+      display: none;
+    }
+
+    .header-top{
+      position: relative;
+      margin: 0 6rem;
+    }
+
+    .nav-left{
+      opacity: 1;
+
+      .menu{
+        flex-direction: row;
+        display: flex;
+        position: absolute;
+        height: fit-content;
+        top: 0rem;
+        right: 6rem;
+        opacity: 1;
+        visibility: visible;
+        width: auto;
+        margin-top: 1rem;
+
+        li{
+          width: fit-content;
+          
+        }
+
+        li>a{
+          color: #000;
+          font-size: 1.4rem;
+        }
+
+        .menu-item{
+          display: block;
+          margin: 0rem;
+        }
+      }
+    }
+  }
+}
