@@ -63,3 +63,32 @@ footer{
     }
   }
 }
+
+@media(min-width:1023px) {
+  footer{
+    // flex-direction: row;
+    // display: block;
+    background: $very-light-gray url(../images/bg-pattern-footer-desktop.svg) no-repeat;
+
+
+    .footer-top{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      width: 82%;
+    }
+
+    .footer-bottom{
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-around;
+      width: 100%;
+
+      .content{
+        margin: 2rem 0 3.5rem;
+        text-align: initial;
+      }
+    }
+  }
+}
