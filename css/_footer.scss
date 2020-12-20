@@ -92,3 +92,31 @@ footer{
     }
   }
 }
+
+@media (min-width: 1200px) {
+  footer{
+    padding-bottom: 2rem;
+
+    .footer-top{
+      margin-top: -2rem;
+      width: 79%;
+      padding-bottom: 1rem;
+
+      .socials{
+        margin-bottom: 0rem;
+      }
+    }
+
+    .footer-bottom{
+      width: 80%;
+      justify-content: flex-start;
+      margin-left: 2rem;
+
+      .content{
+        // margin-right: 15rem;
+        width: 54rem;
+        margin-top: 1rem;
+      }
+    }
+  }
+}
