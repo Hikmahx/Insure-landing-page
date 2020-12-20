@@ -27,8 +27,15 @@ footer{
       a{
         // @include flexCenter(row)
 
-        img{
+        i{
+          font-size:2.6rem;
           margin: 0.6rem;
+          color: #837d88;
+
+          &:hover, &:focus{
+            color: $dark-violet;
+            transition: 0.2s ease-out;
+          }
         }
       }
     }
