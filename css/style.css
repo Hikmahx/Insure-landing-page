@@ -316,6 +316,7 @@ header .menu .menu-item.change {
   margin-bottom: 3rem;
   width: 86%;
   max-width: 55rem;
+  color: #fafafa;
 }
 
 .banner .banner-text button {
@@ -336,6 +337,7 @@ header .menu .menu-item.change {
   cursor: pointer;
   -webkit-transition: 0.2s ease-in;
   transition: 0.2s ease-in;
+  font-weight: 700;
 }
 
 @media (min-width: 530px) {
@@ -416,7 +418,7 @@ header .menu .menu-item.change {
   .banner .banner-img {
     -webkit-transform: scale(0.8);
             transform: scale(0.8);
-    top: 12.9%;
+    top: 9.8rem;
     right: 7rem;
   }
 }
@@ -580,6 +582,7 @@ header .menu .menu-item.change {
   cursor: pointer;
   -webkit-transition: 0.2s ease-in;
   transition: 0.2s ease-in;
+  font-weight: 700;
 }
 
 @media (min-width: 1023px) {
@@ -619,9 +622,8 @@ header .menu .menu-item.change {
             align-items: flex-start;
   }
   .about-us .section-header h1 {
-    font-size: 6.6rem;
+    font-size: 7rem;
     margin-top: 6.6rem;
-    font-weight: 700;
   }
   .about-us .section-header .underline {
     margin-top: 17rem;
@@ -651,16 +653,15 @@ header .menu .menu-item.change {
   .about-us .inner-box {
     background: #2d2640 url(../images/bg-pattern-how-we-work-desktop.svg) no-repeat top right;
     background-size: contain;
-    height: 26rem;
+    height: 25rem;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
     padding: 9rem 8rem;
   }
   .about-us .inner-box h1 {
-    font-size: 5rem;
-    font-weight: 700;
-    max-width: 47rem;
+    font-size: 5.4rem;
+    max-width: 48rem;
     margin: 0;
   }
 }
@@ -710,8 +711,16 @@ footer .footer-top .socials {
   margin: -0.1rem 0 3rem;
 }
 
-footer .footer-top .socials a img {
+footer .footer-top .socials a i {
+  font-size: 2.6rem;
   margin: 0.6rem;
+  color: #837d88;
+}
+
+footer .footer-top .socials a i:hover, footer .footer-top .socials a i:focus {
+  color: #2d2640;
+  -webkit-transition: 0.2s ease-out;
+  transition: 0.2s ease-out;
 }
 
 footer .footer-top hr {
@@ -739,6 +748,34 @@ footer .footer-bottom .content ul li {
   color: #2d2640;
   line-height: 3rem;
   font-weight: 700;
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+footer .footer-bottom .content ul li::after {
+  content: '';
+  position: absolute;
+  background: transparent;
+  width: 0%;
+  height: 0.1rem;
+  bottom: 0rem;
+  left: 0rem;
+  right: 0rem;
+  -webkit-transform: translate3d(0px, 0px, 0px);
+          transform: translate3d(0px, 0px, 0px);
+  -webkit-transition: width 0.2s ease;
+  transition: width 0.2s ease;
+}
+
+footer .footer-bottom .content ul li:hover {
+  cursor: pointer;
+}
+
+footer .footer-bottom .content ul li:hover::after {
+  width: 100%;
+  background-color: #000;
 }
 
 @media (min-width: 1023px) {

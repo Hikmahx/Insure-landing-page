@@ -43,6 +43,7 @@
       margin-bottom: 3rem;
       width: 86%;
       max-width: 55rem;
+      color: $very-light-gray;
     }
 
     button{
@@ -58,6 +59,7 @@
 
       &:hover, &:focus{
         @include hoverFocus;
+        font-weight: 700;
       }
     }
   }
@@ -156,7 +158,8 @@
     
     .banner-img{
       transform: scale(0.8);
-      top: 12.9%;
+      // top: 12.9%;
+      top: 9.8rem;
       right: 7rem;
     }
   }
