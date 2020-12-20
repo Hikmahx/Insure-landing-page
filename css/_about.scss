@@ -112,3 +112,65 @@
     }
   }
 }
+
+@media (min-width:1200px){
+  .about-us{
+    padding: 13.5rem 10.5rem;
+
+
+    &::before{
+      top: -17rem;
+    }
+
+    .section-header{
+      align-items: flex-start;
+
+      h1{
+        font-size: 6.6rem;
+        margin-top: 6.6rem;
+        font-weight: 700;
+      }
+
+      .underline{
+        margin-top: 17rem;
+      }
+    }
+
+    .services{
+      flex-direction: row;
+      margin-top: 1rem;
+
+      .service{
+        align-items: flex-start;
+        margin-right: 2rem;
+        
+        .icon{
+          margin-left: 0rem;
+        }
+
+        h3{
+          font-weight: 700;
+        }
+
+        p{
+          text-align: left;
+        }
+      }
+    }
+
+    .inner-box{
+      background: $dark-violet url(../images/bg-pattern-how-we-work-desktop.svg) no-repeat top right;
+      background-size: contain;
+      height: 26rem;
+      align-items: center;
+      padding: 9rem 8rem;
+
+      h1{
+        font-size: 5rem;
+        font-weight: 700;
+        max-width: 47rem;
+        margin: 0;
+      }
+    }
+  }
+}
