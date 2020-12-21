@@ -66,7 +66,6 @@ footer{
           line-height: 3rem;
           font-weight: 700;
           position: relative;
-          width: fit-content;
 
           &::after{
             content: '';
@@ -119,6 +118,12 @@ footer{
       .content{
         margin: 2rem 0 3.5rem;
         text-align: initial;
+
+        ul{
+          li{
+            width: fit-content;
+          }
+        }
       }
     }
   }
