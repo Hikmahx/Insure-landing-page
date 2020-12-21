@@ -4,13 +4,12 @@ footer{
   display: flex;
   flex-direction:column;
   background: $very-light-gray url(../images/bg-pattern-footer-mobile.svg) no-repeat;
-  // height: 100vh
   width: 100%;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.15rem;
   @include flexCenter(column);
-  padding: /*2.75rem*/ 6rem 2rem;
+  padding: 6rem 2rem;
   
   .footer-top{
     width: 100%;
@@ -25,7 +24,6 @@ footer{
       margin: -0.1rem 0 3rem;
 
       a{
-        // @include flexCenter(row)
 
         i{
           font-size:2.6rem;
@@ -76,6 +74,7 @@ footer{
             bottom: 0rem;
             left: 0rem;
             right: 0rem;
+            margin: 0 auto;
             transform: translate3d(0px, 0px, 0px);
             transition: width 0.2s ease;
           }
@@ -96,10 +95,7 @@ footer{
 
 @media(min-width:1023px) {
   footer{
-    // flex-direction: row;
-    // display: block;
     background: $very-light-gray url(../images/bg-pattern-footer-desktop.svg) no-repeat;
-
 
     .footer-top{
       display: flex;
@@ -149,7 +145,6 @@ footer{
       margin-left: 2rem;
 
       .content{
-        // margin-right: 15rem;
         width: 54rem;
         margin-top: 1rem;
       }

@@ -184,6 +184,8 @@ header .menu .menu-item.change {
   display: block;
 }
 
+/* TABLET AND DESKTOP VIEW */
+
 @media (min-width: 1023px) {
   header .hamburger-menu {
     display: none;
@@ -775,6 +777,7 @@ footer .footer-bottom .content ul li::after {
   bottom: 0rem;
   left: 0rem;
   right: 0rem;
+  margin: 0 auto;
   -webkit-transform: translate3d(0px, 0px, 0px);
           transform: translate3d(0px, 0px, 0px);
   -webkit-transition: width 0.2s ease;

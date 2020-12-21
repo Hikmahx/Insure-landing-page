@@ -1,11 +1,9 @@
 .about-us{
-  // height: 400vh;
   background: url(../images/bg-pattern-intro-right-mobile.svg) no-repeat top -15.5rem right;
   padding: 13.5rem 2rem;
   text-align: center;
 
   .section-header{
-    // padding: 3rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -60,7 +58,6 @@
 
   .inner-box{
     @include flexCenter(column);
-    // width: 100%;
     height: 34.5rem;
     margin: 0.3rem;
     background: $dark-violet url(../images/bg-pattern-how-we-work-mobile.svg) no-repeat top right;
@@ -133,7 +130,6 @@
       h1{
         font-size: 7rem;
         margin-top: 6.6rem;
-        // font-weight: 700;
       }
 
       .underline{
@@ -172,7 +168,6 @@
 
       h1{
         font-size: 5.4rem;
-        // font-weight: 700;
         max-width: 48rem;
         margin: 0;
       }

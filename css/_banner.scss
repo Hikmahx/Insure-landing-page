@@ -76,7 +76,6 @@
       .desktop-banner{
         display: block;
       }
-      // margin-bottom: -1rem;
     }
   }
 }
@@ -85,8 +84,6 @@
   .banner{
 
     .banner-text{
-      // background: url(../images/bg-pattern-intro-right-desktop.svg) no-repeat, $dark-violet;
-      // background-position: right top -8rem;
       background: $dark-violet;
       padding: 5rem;
       align-items: flex-start;
@@ -135,7 +132,6 @@
         height: auto;
       }
     }
-
   }
 }
 
@@ -144,8 +140,6 @@
     .banner-text{
       padding: 5rem 16.5rem;
 
-      // height: 60vh;
-
       h1{
         margin-top: 0rem;
         font-size: 7rem;
@@ -153,12 +147,10 @@
         line-height: 6.5rem;
         margin-bottom: 3rem;
       }
-
     }
     
     .banner-img{
       transform: scale(0.8);
-      // top: 12.9%;
       top: 9.8rem;
       right: 7rem;
     }

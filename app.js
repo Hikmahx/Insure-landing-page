@@ -25,7 +25,6 @@ window.addEventListener('resize', changeText());
 
 function changeText(){
   if( window.innerWidth > 1022){
-    console.log('working')
     listItem.innerText = 'View Plans';
   }
   if( window.innerWidth < 1022){
