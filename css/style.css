@@ -33,6 +33,15 @@ header .header-top {
   height: 14.2vh;
 }
 
+header .header-top.change {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background: #fff;
+  z-index: 1;
+}
+
 header .hamburger-menu {
   margin-bottom: 0.3rem;
   cursor: pointer;
@@ -89,12 +98,18 @@ header .nav-left {
   background: #2b272f url(../images/bg-pattern-mobile-nav.svg) no-repeat left bottom;
   background-size: contain;
   opacity: 0;
-  -webkit-transition: opacity 0.5s ease-in;
-  transition: opacity 0.5s ease-in;
+  -webkit-transition: opacity 0.2s ease-in;
+  transition: opacity 0.2s ease-in;
+  height: 0;
 }
 
 header .nav-left.change {
-  opacity: 1;
+  -webkit-transform: translateY(80px);
+          transform: translateY(80px);
+  height: 104.7vh;
+  opacity: 0.98;
+  position: fixed;
+  z-index: 1;
 }
 
 header .menu {
@@ -749,9 +764,6 @@ footer .footer-bottom .content ul li {
   line-height: 3rem;
   font-weight: 700;
   position: relative;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
 }
 
 footer .footer-bottom .content ul li::after {
@@ -812,6 +824,11 @@ footer .footer-bottom .content ul li:hover::after {
   footer .footer-bottom .content {
     margin: 2rem 0 3.5rem;
     text-align: initial;
+  }
+  footer .footer-bottom .content ul li {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
   }
 }
 
