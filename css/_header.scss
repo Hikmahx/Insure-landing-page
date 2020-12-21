@@ -8,6 +8,15 @@ header{
     align-items: center;
     justify-content: space-between;
     height: 14.2vh;
+
+    &.change{
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      background: #fff;
+      z-index: 1;
+    }
   }
 
   .hamburger-menu{
@@ -49,10 +58,15 @@ header{
     background:  #2b272f url(../images/bg-pattern-mobile-nav.svg) no-repeat left bottom;
     background-size: contain;
     opacity: 0;
-    transition: opacity 0.5s ease-in;
+    transition: opacity 0.2s ease-in;
+    height: 0;
 
     &.change{
-      opacity: 1;
+      transform: translateY(80px);
+      height: 104.7vh;
+      opacity: 0.98;
+      position: fixed;
+      z-index: 1;
     }
   }
 
