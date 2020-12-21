@@ -1,5 +1,6 @@
 // UI variables
 const hamburger = document.querySelector('.hamburger-menu');
+const headerTop = document.querySelector('.header-top');
 const menuItems = document.querySelectorAll('.menu-item');
 const nav = document.querySelector('.nav-left')
 const menu = document.querySelector('.menu');
@@ -16,6 +17,7 @@ hamburger.addEventListener('click', (e)=>{
   menuItems.forEach(item => {
     item.classList.toggle('change');
   });
+  headerTop.classList.toggle('change');
 })
 
 // list item change on resize
