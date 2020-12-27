@@ -4,6 +4,7 @@ footer{
   display: flex;
   flex-direction:column;
   background: $very-light-gray url(../images/bg-pattern-footer-mobile.svg) no-repeat;
+  background-size: contain;
   width: 100%;
   text-align: center;
   text-transform: uppercase;
