@@ -129,7 +129,7 @@
 
       h1{
         font-size: 7rem;
-        margin-top: 6.6rem;
+        margin-top: 5rem;
       }
 
       .underline{
@@ -139,14 +139,18 @@
 
     .services{
       flex-direction: row;
+      width: 115rem;
+      margin-bottom: 15.5rem;
       margin-top: 1rem;
 
       .service{
         align-items: flex-start;
         margin-right: 2rem;
+        margin-top: 3rem;
         
         .icon{
           margin-left: 0rem;
+          margin-bottom: 3rem;
         }
 
         h3{
